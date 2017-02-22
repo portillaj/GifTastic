@@ -1,0 +1,52 @@
+body {
+	background-color: #87ACBE;
+}
+
+.header {
+	display: block;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.my-title {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #46526E;
+	padding: 15px;
+	font-size: 60px;
+	border-top: 4px solid #C2E7EB;
+	border-bottom: 4px solid #C2E7EB;
+}
+
+.button-section {
+	margin-top: 50px;
+}
+
+.giffy {
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #46526E;
+	color: #C2E7EB;
+	border-radius: 7px;
+}
+
+.giffy:hover {
+	background-color: #AAFFF8;
+	color: #46526E;
+}
+
+.display-gif {
+	width: 100%;
+	border: 5px solid black;
+}
+
+.display-gif img {
+	display: inline;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 350px;
+	height: 220px;
+
+}
