@@ -25,7 +25,7 @@ $(".giffy").on("click", function(){
 	var gifClick = $(this).html(); //will get get the data-value of the gif and it will insert it to api variable
 	//variable for where to place the gif when click
 	
-	var api = "http://api.giphy.com/v1/gifs/search?q=" + gifClick + "&limit=10&rating=pg-13&api_key=dc6zaTOxFJmzC";
+	var api = "https://api.giphy.com/v1/gifs/search?q=" + gifClick + "&limit=10&rating=pg-13&api_key=dc6zaTOxFJmzC";
 
 	 $.ajax({
       url: api,
