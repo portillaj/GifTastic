@@ -38,15 +38,56 @@ body {
 }
 
 .display-gif {
-	width: 100%;
-	border: 5px solid black;
+	margin-top: 40px;
+	display: inline;
 }
 
 .display-gif img {
-	display: inline;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-left: 10px;
+	margin-bottom: 10px;
 	width: 350px;
-	height: 220px;
+	height: 200px;
+	border-radius: 5px;
+	border: 5px solid white;
+	float: left;
+}
+
+.display-gif img:hover {
+	border: 5px solid #46526E;
+	transition-duration: .3s;
+}
+
+.addButton-section {
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 25px;
 
 }
+
+.search-button {
+	background-color: #46526E;
+	color: #C2E7EB;
+}
+
+.search-button:hover {
+	background-color: #AAFFF8;
+	color: #46526E;
+}
+
+.my-giffy {
+	float: left;
+	text-align: center;
+}
+
+.rating {
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+
